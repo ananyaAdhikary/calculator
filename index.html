@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="styless.css">
+</head>
+<body>
+  <div class="total">
+    <input type="text" id="display" value="0" disabled>
+    <div class="button">
+      
+      <button >Rad</button>
+      <button >Deg</button>
+      <button>x!</button>
+      <button onclick="appendValue('(')">(</button>
+      <button onclick="appendValue(')')">)</button>
+      <button>%</button>
+      <button onclick="clrDisplay()">AC</button>
+     
+    
+       <button >lnv</button>
+      <button >sin</button>
+      <button>ln</button>
+      <button onclick="addValue('7')">7</button>
+      <button onclick="addValue('8')">8</button>
+      <button onclick="addValue('9')">9</button>
+      <button onclick="addValue('/')">÷</button>
+    
+
+      <button>pi</button>
+      <button >cos</button>
+      <button>log</button> 
+      <button onclick="addValue('4')">4</button>
+      <button onclick="addValue('5')">5</button>
+      <button onclick="addValue('6')">6</button>
+      <button onclick="addValue('*')">X</button>
+    
+     
+
+      <button>e</button>
+      <button>tan</button>
+      <button >root</button>
+      <button onclick="addValue('1')">1</button>
+      <button onclick="addValue('2')">2</button>
+      <button onclick="addValue('3')">3</button>
+      <button onclick="addValue('-')">-</button>
+      
+      
+      <button >ANS</button>
+      <button >EXP</button>
+      <button>x^y</button>
+      <button onclick="addValue('0')">0</button>
+      <button onclick="addValue('.')">.</button>
+      <button onclick="calculate()" style="background-color:blue; color:white">=</button>
+      <button onclick="addValue('+')">+</button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
